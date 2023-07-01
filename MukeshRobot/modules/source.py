@@ -9,7 +9,7 @@ from telethon import __version__ as s
 from MukeshRobot import OWNER_ID, dispatcher
 from MukeshRobot import pbot as client
 
-Mukesh = "https://te.legra.ph/file/1a72f3770dcb90ee8b3f7.jpg"
+Mukesh = "https://te.legra.ph/file/c1e713220a8c7af96f85b.jpg"
 
 
 @client.on_message(filters.command(["repo", "source"]))
@@ -34,7 +34,7 @@ async def repo(client, message):
                     ),
                     InlineKeyboardButton(
                         "• ʀᴇᴘᴏ •",
-                        url="https://github.com/noob-mukesh/MukeshRobot",
+                        url="https://github.com/mrtosumemon/Doreamon",
                     ),
                 ]
             ]
