@@ -46,23 +46,23 @@ async def restart(client, m: Message):
     await accha.delete()
     await asyncio.sleep(0.3)
     umm = await m.reply_sticker(
-        "CAACAgUAAxkDAAJHbmLuy2NEfrfh6lZSohacEGrVjd5wAAIOBAACl42QVKnra4sdzC_uKQQ"
+        "CAACAgEAAxkBAANNZKBV19JCLCmNMqZKS-BO2X-pR-kAAssCAAKZmnhEQtw4iGsO8FUvBA"
     )
     await umm.delete()
     await asyncio.sleep(0.2)
     await m.reply_photo(
         START_IMG,
-        caption=f"""**ʜᴇʏ, ɪ ᴀᴍ 『[{BOT_NAME}](f"t.me/{BOT_USERNAME}")』**
+        caption=f"""**𝐇ҽ𝐘, 𝐈 𝐀ɱ 『[{BOT_NAME}](f"t.me/{BOT_USERNAME}")』**
    ━━━━━━━━━━━━━━━━━━━
-  » **ᴍʏ ᴏᴡɴᴇʀ :** [ᴏᴡɴᴇʀ](tg://user?id={OWNER_ID})
+  » **𝐌ყ 𝐎ɯɳҽ𝐑 :** [𝐎ɯɳҽ𝐑](tg://user?id={OWNER_ID})
   
-  » **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{lver}`
+  » **𝐋ιႦɾαɾ𝐘 𝐕ҽɾʂισ𝐍 :** `{lver}`
   
-  » **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{tver}`
+  » **𝐓ҽʅҽƚԋσ𝐍 𝐕ҽɾʂισ𝐍 :** `{tver}`
   
-  » **ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ :** `{pver}`
+  » **𝐏ყɾσɠɾα𝐌 𝐕ҽɾʂισ𝐍 :** `{pver}`
   
-  » **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{pyver()}`
+  » **𝐏ყƚԋσ𝐍 𝐕ҽɾʂισ𝐍 :** `{pyver()}`
    ━━━━━━━━━━━━━━━━━━━""",
         reply_markup=InlineKeyboardMarkup(Mukesh),
     )
