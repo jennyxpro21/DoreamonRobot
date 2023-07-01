@@ -143,7 +143,7 @@ __help__ = f"""
  »  /ᴄʜᴀᴛʙᴏᴛ *:* sʜᴏᴡs ᴄʜᴀᴛʙᴏᴛ ᴄᴏɴᴛʀᴏʟ ᴘᴀɴᴇʟ
 """
 
-__mod_name__ = "Cʜᴀᴛʙᴏᴛ"
+__mod_name__ = "💘𝐂ԋαƚႦσ𝐓💘"
 
 
 CHATBOTK_HANDLER = CommandHandler("chatbot", fallen, run_async=True)
