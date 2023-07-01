@@ -19,12 +19,12 @@ PHOTO = [
 
 Mukesh = [
     [
-        InlineKeyboardButton(text="ᴏᴡɴᴇʀ", user_id=OWNER_ID),
-        InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"),
+        InlineKeyboardButton(text="💓𝐎ɯɳҽ𝐑💓", user_id=OWNER_ID),
+        InlineKeyboardButton(text="💓𝐒υρρσɾ𝐓💓", url=f"https://t.me/{SUPPORT_CHAT}"),
     ],
     [
         InlineKeyboardButton(
-            text="➕ᴀᴅᴅ ᴍᴇ ᴇʟsᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ➕",
+            text="➕𝐀ԃ𝐃 𝐌ҽ 𝐓σ 𝐘συ𝐑 𝐆ɾσυ𝐏➕",
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         ),
     ],
