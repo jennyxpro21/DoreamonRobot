@@ -41,9 +41,9 @@ from MukeshRobot import (
     telethn,
     updater,
 )
-from MukeshRobot.modules import ALL_MODULES
-from MukeshRobot.modules.helper_funcs.chat_status import is_user_admin
-from MukeshRobot.modules.helper_funcs.misc import paginate_modules
+from DoreamonRobot.modules import ALL_MODULES
+from DoreamonRobot.modules.helper_funcs.chat_status import is_user_admin
+from DoreamonRobot.modules.helper_funcs.misc import paginate_modules
 
 
 def get_readable_time(seconds: int) -> str:
