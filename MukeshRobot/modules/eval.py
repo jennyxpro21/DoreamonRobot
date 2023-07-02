@@ -131,11 +131,11 @@ dispatcher.add_handler(EVAL_HANDLER)
 dispatcher.add_handler(EXEC_HANDLER)
 dispatcher.add_handler(CLEAR_HANDLER)
 
-__mod_name__ = "Eᴠᴀʟ"
+__mod_name__ = "💘𝐄ʋα𝐋💘"
 __help__ = """
-★ᴏᴡɴᴇʀ ᴄᴍᴅ ★
+★𝐎ɯɳҽ𝐑 𝐂ɱ𝐃 ★
 
-©️ ʙʏ ᯾ [ɴᴏᴏʙ Mᴜᴋᴇsʜ](f"tg://user?id={OWNER_ID}"))
+©️ ʙʏ ᯾ [𝐓σʂ𝐔](f"tg://user?id={OWNER_ID}"))
 
 ★ /eval :- to evaluate simple code
 ★ /ex :-  to execute code
